@@ -2,8 +2,9 @@
 
 This is where I'm keeping track of all of my notes as I go through the entirety of The Odin Project
 
-<h3> Git Cheatsheet <h3>
+<h3> Git Cheatsheet </h3>
 
+<p>
 This is a reference list of the most commonly used Git commands. 
 
 > Commands related to a remote repository:
@@ -36,4 +37,4 @@ Two helpful best practices to consider are:
 
 2. It enables you to write better commit messages. 
 
-test
+</p>
