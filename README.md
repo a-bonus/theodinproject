@@ -38,3 +38,10 @@ Two helpful best practices to consider are:
 2. It enables you to write better commit messages. 
 
 </p>
+
+## CSS notes
+- To reference a class ID in CSS, use a period (.) before the class name
+- To reference an ID in CSS, use a hashtag (#) before the ID name
+- To use RGB color in CSS, use the following syntax: rgb(255, 0, 0)
+- If css file is red, it means that the file is not linked to the HTML file or there are syntax errors in the css file
+- To link a css file to an HTML file, use the following syntax: <link rel="stylesheet" type="text/css" href="style.css">
