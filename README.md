@@ -46,3 +46,5 @@ Two helpful best practices to consider are:
 - If css file is red, it means that the file is not linked to the HTML file or there are syntax errors in the css file
 - To link a css file to an HTML file, use the following syntax: <link rel="stylesheet" type="text/css" href="style.css">
 - When using a class id for example <p class="example">, in order to reference it in CSS, use the following syntax: .example
+- To chain classes in CSS, use the following syntax: .example1.example2, where example1 and example2 are the classes you want to chain, the purpose of this is to apply the same styling to both classes without having to repeat the same code twice 
+- To chain classes in HTML, use the following syntax: <p class="example1 example2">, where example1 and example2 are the classes you want to chain, and the CSS code would look like this: .example1.example2 {color: red;}. This means that the text in the paragraph will be red. But why not just use one class, like example 1? The reason is that you might want to apply the same styling to other elements in the future, so it's better to chain classes.  
