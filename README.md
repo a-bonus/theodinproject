@@ -49,3 +49,13 @@ Two helpful best practices to consider are:
 - To chain classes in CSS, use the following syntax: .example1.example2, where example1 and example2 are the classes you want to chain, the purpose of this is to apply the same styling to both classes without having to repeat the same code twice 
 - To chain classes in HTML, use the following syntax: <p class="example1 example2">, where example1 and example2 are the classes you want to chain, and the CSS code would look like this: .example1.example2 {color: red;}. This means that the text in the paragraph will be red. But why not just use one class, like example 1? The reason is that you might want to apply the same styling to other elements in the future, so it's better to chain classes.  
 - To use a class in CSS, use the following syntax: .example {color: red;}, where example is the class name and color: red; is the styling you want to apply to the class
+- Border box is a property in CSS that includes padding and border in the width and height of an element, for example 
+```  
+  .example {
+    box-sizing: border-box;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid black;
+  }
+```
+
