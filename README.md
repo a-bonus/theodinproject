@@ -60,4 +60,11 @@ Two helpful best practices to consider are:
 ```
 
 - The Box model is a model in CSS that consists of the following properties: margin, border, padding, and content. The margin is the space outside the border, the border is the border of the element, the padding is the space between the border and the content, and the content is the content of the element. 
+- To center an element in CSS, use the following syntax: 
+```
+  .example {
+    margin: 0 auto;
+    width: 50%;
+  }
+```
 
